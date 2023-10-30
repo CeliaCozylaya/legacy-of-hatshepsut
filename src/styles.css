@@ -1,0 +1,30 @@
+/* Resetting some default styles for better cross-browser consistency */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Styling the container to center the image */
+.splash-container {
+    display: flex;
+    /* Activate Flexbox */
+    justify-content: center;
+    /* Center children horizontally */
+    align-items: center;
+    /* Center children vertically */
+    height: 100vh;
+    /* 100% of the viewport height */
+    width: 100vw;
+    /* 100% of the viewport width */
+}
+
+/* Optional: You can set a max-width for the image if needed */
+.splash-container img {
+    max-width: 90%;
+    /* Example to make sure image doesn't overflow the viewport */
+    max-height: 90%;
+    /* Adjust as per your design needs */
+}

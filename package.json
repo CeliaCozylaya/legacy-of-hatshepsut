@@ -1,0 +1,23 @@
+{
+  "name": "legacy_of_hatshepsut",
+  "version": "1.0.0",
+  "description": "You have been tasked by the pharoah to raid the tombs of the past",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open"
+  },
+  "author": "Charlotte Stanford",
+  "devDependencies": {
+    "@types/jquery": "^3.5.25",
+    "copy-webpack-plugin": "^11.0.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "jquery": "^3.7.1",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
