@@ -9,7 +9,7 @@ module.exports = {
     },
     entry: {
         splash: './src/splash.ts',
-        play: './src/index06_maker_fixed.ts'
+        play: './src/index07_map.ts'
     },
     mode: 'development',
     module: {

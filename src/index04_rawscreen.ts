@@ -1,4 +1,4 @@
-import { EventMgr } from "01term/04EventMgr";
-import { RawScreenTest } from "01term/04RawScreenTest";
+import { EventMgr } from "01Term/04EventMgr";
+import { RawScreenTest } from "01Term/04RawScreenTest";
 
 EventMgr.runRawScreen(new RawScreenTest());

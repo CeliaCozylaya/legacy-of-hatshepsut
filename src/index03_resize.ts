@@ -1,5 +1,5 @@
-import { ResizingTerm } from "01term/03ResizingTerm";
-import { TestTerm } from "01term/03TestTerm";
+import { ResizingTerm } from "01Term/03ResizingTerm";
+import { TestTerm } from "01Term/03TestTerm";
 
 let term = ResizingTerm.StockTerm();
 function onResize() {

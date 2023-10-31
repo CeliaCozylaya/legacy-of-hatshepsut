@@ -1,7 +1,7 @@
-import { SScreenIF } from "01term/05SScreenIF";
+import { SScreenIF } from "01Term/05SScreenIF";
 import { MakerIF } from "./06ScreenMakerIF";
-import { TermIF } from "01term/03TermIF";
-import { ScreenStackIF } from "01term/05SScreenStackIF";
+import { TermIF } from "01Term/03TermIF";
+import { ScreenStackIF } from "01Term/05SScreenStackIF";
 
 export class DummyScreen implements SScreenIF {
     name = 'dummy';

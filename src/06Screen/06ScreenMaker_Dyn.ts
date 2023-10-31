@@ -1,7 +1,7 @@
-import { SScreenIF } from "01term/05SScreenIF";
+import { SScreenIF } from "01Term/05SScreenIF";
 import { MakerIF } from "./06ScreenMakerIF";
-import { ScreenStack } from "01term/05SScreenStack";
-import { OverScreen0 } from "./06OverScreen";
+import { ScreenStack } from "01Term/05SScreenStack";
+// import { OverScreen0 } from "06OverScreen";
 
 export interface GameIF { }
 
