@@ -5,6 +5,7 @@ export class EventMgr {
     constructor(public term: ResizingTerm, public screen: RawScreenIF) {
         $('#body1').on('keydown', this.onKey.bind(this));
         $(window).on('resize', this.onResize.bind(this));
+        this.onResize();
     }
     onResize() {
         this.term.onResize();
